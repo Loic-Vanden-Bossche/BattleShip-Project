@@ -1,0 +1,21 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "SDL2",
+			"shell_cmd": "make 1>nul && start BT_64.exe",
+			"working_dir": "${project_path}/bin",
+			"quiet": true
+		}
+	], 
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+	}
+}

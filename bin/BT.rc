@@ -1,0 +1,24 @@
+0 ICON "../images/icon.ico"
+1 VERSIONINFO
+FILEVERSION     0,1,0,0
+PRODUCTVERSION  0,1,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "NO"
+      VALUE "FileDescription", "Bataille Navale alpha version"
+      VALUE "FileVersion", "0.1"
+      VALUE "InternalName", "BT"
+      VALUE "LegalCopyright", "Loic Vanden Bossche"
+      VALUE "OriginalFilename", "BT.exe"
+      VALUE "ProductName", "Bataille Navale"
+      VALUE "ProductVersion", "0.1"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x040C, 1252, 0x0809, 1252, 0x040A, 1252, 0x0410, 1252, 0x0816, 1252, 0x0413, 1252
+  END
+END
